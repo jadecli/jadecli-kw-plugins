@@ -8,6 +8,11 @@
       "name": "data-engineering",
       "source": "./data-engineering",
       "description": "Package management, AST indexing, scheduled tasks, and Supabase with Cube.js semantic layer. Manage monorepo dependencies, rebuild tree-sitter indexes, schedule recurring agents, and define semantic models."
+    },
+    {
+      "name": "frontend-engineering",
+      "source": "./frontend-engineering",
+      "description": "Frontend engineering skills for Netlify deployments, edge functions, serverless functions, caching, image CDN, forms, blobs, database, AI gateway, and framework-specific guidance for Next.js, Astro, Vite, and TanStack. Based on tobinsouth/context-and-tools."
     }
   ]
 }
