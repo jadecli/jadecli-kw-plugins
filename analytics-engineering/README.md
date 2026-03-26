@@ -13,6 +13,7 @@ Queries `otel_events` and `otel_metrics` tables to surface session activity, too
 | `cost-tracking` | Token spend and USD cost by model, session, and time range |
 | `tool-analytics` | Tool call success rates, duration, and error patterns |
 | `session-analytics` | Agent session history, duration, tool counts, and agent types |
+| `kimball-modeling` | Kimball dimensional modeling — semantic layer, 1-table-per-file DDL, load types, pipeline metadata, version-controlled business logic |
 
 ## Data Model
 
