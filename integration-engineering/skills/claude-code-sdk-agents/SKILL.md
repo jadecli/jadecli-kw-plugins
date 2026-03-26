@@ -147,5 +147,5 @@ claude --bare -p "Run tests" --allowedTools "Bash" --output-format json | \
 ## Requirements
 
 - Claude Code v2.1.72+ for scheduled tasks
-- `ANTHROPIC_API_KEY` or provider credentials for bare mode
+- `CLAUDE_CODE_OAUTH_TOKEN` (Pro/Max) or `ANTHROPIC_API_KEY` (API users) for bare mode
 - `--bare` recommended for all scripted/CI usage

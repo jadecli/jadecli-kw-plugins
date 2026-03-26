@@ -17,7 +17,9 @@ Run Claude Code in your GitHub CI pipeline. @claude mentions in PRs/issues trigg
 
 Or manually:
 1. Install GitHub App: https://github.com/apps/claude
-2. Add `ANTHROPIC_API_KEY` to repo secrets
+2. Add auth secret to repo secrets:
+   - **Pro/Max subscribers**: use `CLAUDE_CODE_OAUTH_TOKEN` (preferred over API key)
+   - **API users**: use `ANTHROPIC_API_KEY`
 3. Copy workflow from examples/claude.yml
 
 ## Basic Workflow
@@ -44,7 +46,7 @@ jobs:
 |-----------|-------------|----------|
 | `prompt` | Instructions (plain text or skill name) | No |
 | `claude_args` | CLI arguments passed to Claude Code | No |
-| `anthropic_api_key` | Claude API key | Yes* |
+| `anthropic_api_key` | Claude API key (or use CLAUDE_CODE_OAUTH_TOKEN for Pro/Max) | Yes* |
 | `github_token` | GitHub token for API access | No |
 | `trigger_phrase` | Custom trigger (default: "@claude") | No |
 | `use_bedrock` | Use AWS Bedrock | No |
