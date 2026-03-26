@@ -23,6 +23,11 @@
       "name": "analytics-engineering",
       "source": "./analytics-engineering",
       "description": "Telemetry analytics for Claude Code agent sessions. Supabase OTel pipeline — session history, tool performance, cost tracking, error rates. Based on jadecli/jadebot PR #222."
+    },
+    {
+      "name": "software-dev-manager",
+      "source": "./software-dev-manager",
+      "description": "Org-level Claude Code usage monitoring, cost management, and knowledge worker analytics. OTel setup, token tracking, budget controls, adoption dashboards, per-role ROI, and TPM/RPM capacity planning."
     }
   ]
 }
