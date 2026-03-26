@@ -28,6 +28,16 @@
       "name": "software-dev-manager",
       "source": "./software-dev-manager",
       "description": "Org-level Claude Code usage monitoring, cost management, and knowledge worker analytics. OTel setup, token tracking, budget controls, adoption dashboards, per-role ROI, and TPM/RPM capacity planning."
+    },
+    {
+      "name": "claude-architect",
+      "source": "./claude-architect",
+      "description": "Distinguished Claude Architect — org strategy, directives, primitives, 5 cert exam domains (agentic orchestration, MCP, workflows, prompts, context), plugin inventory, and 10 build-passing milestones. Based on Claude Certified Architect Foundations + Enterprise LLM Architecture Playbook."
+    },
+    {
+      "name": "claude-qae",
+      "source": "./claude-qae",
+      "description": "Distinguished Claude QAE — test strategy, code standards, bug detection, CI/CD gates, E2E validation, and milestone tests for all 10 architect checkpoints. Proves the full jadecli ecosystem works end-to-end with real data, mobile, Slack, Cowork, Supabase, Netlify, and Linear."
     }
   ]
 }
