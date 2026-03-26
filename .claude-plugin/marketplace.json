@@ -13,6 +13,11 @@
       "name": "frontend-engineering",
       "source": "./frontend-engineering",
       "description": "Frontend engineering skills for Netlify deployments, edge functions, serverless functions, caching, image CDN, forms, blobs, database, AI gateway, and framework-specific guidance for Next.js, Astro, Vite, and TanStack. Based on tobinsouth/context-and-tools."
+    },
+    {
+      "name": "integration-engineering",
+      "source": "./integration-engineering",
+      "description": "Claude Code integration skills — Dispatch, Remote Control, Channels (Telegram, Discord, iMessage), Slack, and Scheduled Tasks. Work away from your terminal with mobile, chat bridges, webhooks, and cron automation."
     }
   ]
 }
