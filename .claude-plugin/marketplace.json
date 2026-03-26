@@ -18,6 +18,11 @@
       "name": "integration-engineering",
       "source": "./integration-engineering",
       "description": "Claude Code integration skills — Dispatch, Remote Control, Channels (Telegram, Discord, iMessage), Slack, and Scheduled Tasks. Work away from your terminal with mobile, chat bridges, webhooks, and cron automation."
+    },
+    {
+      "name": "analytics-engineering",
+      "source": "./analytics-engineering",
+      "description": "Telemetry analytics for Claude Code agent sessions. Supabase OTel pipeline — session history, tool performance, cost tracking, error rates. Based on jadecli/jadebot PR #222."
     }
   ]
 }
