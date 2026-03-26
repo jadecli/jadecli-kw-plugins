@@ -1,0 +1,13 @@
+{
+  "name": "jadecli-kw-plugins",
+  "owner": {
+    "name": "jadecli"
+  },
+  "plugins": [
+    {
+      "name": "data-engineering",
+      "source": "./data-engineering",
+      "description": "Package management, AST indexing, scheduled tasks, and Supabase with Cube.js semantic layer. Manage monorepo dependencies, rebuild tree-sitter indexes, schedule recurring agents, and define semantic models."
+    }
+  ]
+}
